@@ -1,3 +1,17 @@
+//Flexbox
+@mixin flex($direction: null, $align: null, $justify: null) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+//Grid
+@mixin grid($align: null, $justify: null) {
+  align-items: $align;
+  justify-content: $justify;
+}
+
 //Media Queries
 
 //Big Smartphone devices
