@@ -69,3 +69,8 @@
     display: none;
   }
 }
+
+//Display none
+@mixin d-none {
+  display: none;
+}
